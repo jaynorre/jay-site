@@ -92,6 +92,19 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.tiktok ? (
+        <a
+          href={socialMediaLinks.tiktok}
+          className="icon-button tiktok"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+            <i className="fab fa-tiktok"></i>
+            <span></span>
+          </a>
+        ) : null}
+
+
       {socialMediaLinks.medium ? (
         <a
           href={socialMediaLinks.medium}
