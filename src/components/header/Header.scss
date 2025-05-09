@@ -61,10 +61,10 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-family: "Orbitron";
+  font-weight: bolder;
+  font-size: 26px;
+  letter-spacing: 1px;
   padding: 0 10px;
 }
 
@@ -80,7 +80,6 @@
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right;
   padding: 28px 20px;
   position: relative;

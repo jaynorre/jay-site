@@ -50,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FUTURE ELECTRICAL ENGINEER LEARNING HOW TO BUILD CIRCUITS, PROGRAM SYSTEMS, AND DESIGN COMPUTER HARDWARE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build microcontroller and embedded systems projects using sensors, displays, and motors"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Write C++ and Python code for microcontrollers and simulations"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡  Design simple digital circuits and explore CPU/GPU architecture fundamentals"
     )
   ],
 
@@ -66,57 +66,34 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Microcontrollers",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Java",
+      fontAwesomeClassname: "fas fa-coffee"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "VS Code",
+      fontAwesomeClassname: "fas fa-code"
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -127,46 +104,42 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Wilbur Wright College",
+      logo: require("./assets/images/wilburwright.png"),
+      subHeader: "Electrical Engineering, Associate in Engineering Science",
+      duration: "Summer 2025 - Spring 2027",
+      desc: "Planning to pursue electrical engineering with a focus on computer architecture, digital systems, and hardware design.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Building a strong foundation in both theory and applied engineering",
+        "Targeting research and internships in hardware or chip development"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Microcontrollers (Arduino, GPIO, Serial I/O)",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Circuit Design & Prototyping",
+      progressPercentage: "65%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Linux",
+      progressPercentage: "55%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
