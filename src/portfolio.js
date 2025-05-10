@@ -145,7 +145,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -213,7 +213,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -274,15 +274,15 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Social Media",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Where I explain what I learn and post my projects.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -317,7 +317,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -330,7 +330,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -343,10 +343,9 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 🤝"),
   subtitle:
     "Got a question, idea, or just want to talk engineering? Reach out to me!",
-  //number: "+92-0000000000",
   email_address: "jaynorre@gmail.com"
 };
 
